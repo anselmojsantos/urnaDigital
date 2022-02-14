@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletrônica</title>
+    <link rel ="stylesheet" href ="normalize.css">
+    <link rel ="stylesheet" href ="style.css">       
+</head>
+<body>
+<div class="urna">
+    <div class="tela">
+        <div class="d-1">
+            <div class="d-1-left">
+                <div class="d-1-1">
+                    <span>SEU VOTO PARA:</span>
+                </div>
+                <div class="d-1-2">
+                    <span>PREFEITO</span>
+                </div>
+                <div class="d-1-3">
+                    <div class="number pisca">7</div>
+                    <div class="number">2</div>
+                </div>
+                <div class="d-1-4">
+                    NOME: Anselmo Santos<br/>
+                    PARTIDO: Reino de Navori.<br/>
+                    VICE: Xan Irelia
+                </div>
+            </div>
+            <div class="d-1-right">
+                <div class="d-1-img">
+                    <img src="imgs/72.jpg" alt="">
+                    Prefeito
+                </div>
+                <div class="d-1-img small">
+                    <img src="imgs/72_2.jpg" alt="">
+                   vice-Prefeito
+                </div>
+            </div>
+        </div>
+        <div class="d-2">
+            Aperte a tecla :<br/>
+            CONFIRMA : Para CONFIRMAR este voto.<br/>
+            CORRIGE : para REINICIAR ESTE voto. 
+        </div>
+    </div>
+    <div class="teclado">
+        <div class="teclado--linha">
+            <button class="teclado--botao" onclick="clicar('1')">1</button>
+            <button class="teclado--botao" onclick="clicar('2')">2</button>
+            <button class="teclado--botao" onclick="clicar('3')">3</button>
+        </div>
+        <div class="teclado--linha">
+            <button class="teclado--botao" onclick="clicar('4')">4</button>
+            <button class="teclado--botao" onclick="clicar('5')">5</button>
+            <button class="teclado--botao" onclick="clicar('6')">6</button>
+        </div>
+        <div class="teclado--linha">
+            <button class="teclado--botao" onclick="clicar('7')">7</button>
+            <button class="teclado--botao" onclick="clicar('8')">8</button>
+            <button class="teclado--botao" onclick="clicar('9')">9</button>
+        </div>
+        <div class="teclado--linha">
+            <button class="teclado--botao" onclick="clicar('0')">0</button>
+        </div>
+        <div class="teclado--linha">
+            <button class="teclado--botao btn-branco" onclick="btnbr()">Branco</button>
+            <button class="teclado--botao btn-corrige" onclick="btnCr()">Corrige</button>
+            <button class="teclado--botao btn-confirma" onclick="btnCf()">Confirmar</button>
+        </div>
+    </div>
+</div>
+<div class= "listaCandidatos">
+    Prefeitos:
+    <div class="ct-section">
+        <div class = "Num border">Número</div>
+        <div class = "Nome border">Nome</div>
+        <div class = "Partido border">Partido</div>
+        <div class = "Vice border">Vice</div>
+    </div>
+    <div class="ct-section">
+        <div class = "Num border">72</div>
+        <div class = "Nome border">Anselmo Santos</div>
+        <div class = "Partido border">Reino de Navori</div>
+        <div class = "Vice border">Xan Irelia</div>
+    </div>
+    <div class="ct-section">
+        <div class = "Num border">84</div>
+        <div class = "Nome border">Gabriel Lemos</div>
+        <div class = "Partido border">Reino Skaarl</div>
+        <div class = "Vice border">KLED</div>
+    </div>
+    <div class="ct-section">
+        <div class = "Num border">99</div>
+        <div class = "Nome border">Guilherme Santos</div>
+        <div class = "Partido border">Reino Demacia</div>
+        <div class = "Vice border">GAREN</div>
+    </div>
+    <div class="ct-section">
+        <div class = "Num border">64</div>
+        <div class = "Nome border">Miguel Lemos</div>
+        <div class = "Partido border">Lua de Saturno</div>
+        <div class = "Vice border">TANOS</div>
+    </div>
+</div>
+<div class= "listaCandidatos">
+    Vereador:
+    <div class="ct-section">
+        <div class = "Num border">Número</div>
+        <div class = "Nome border">Nome</div>
+        <div class = "Partido border">Partido</div>
+        <div class = "Vice border">Vice</div>
+    </div>
+    <div class="ct-section">
+        <div class = "Num border">38111</div>
+        <div class = "Nome border">Fulano de  Tal</div>
+        <div class = "Partido border"> ABC</div>
+        <div class = "Vice border"></div>
+    </div>
+    <div class="ct-section">
+        <div class = "Num border">77222</div>
+        <div class = "Nome border">Beltrano da Silva</div>
+        <div class = "Partido border">CCABC</div>
+        <div class = "Vice border"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="song.js"></script>
+<script type="text/javascript" src="lista.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
