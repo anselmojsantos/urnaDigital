@@ -3,6 +3,8 @@
 <span>Com javascript puro e css3.<span>
 <p>No projeto  - B7Web não havia som de efeito, no qual neste atualizado já tem.<p>
 
+<hr>
+
 <div> 
     <span>Link:</span>
     <p>https://anselmojsantos.github.io/urnaDigital/</p>
